@@ -24,7 +24,7 @@
   --heading-color: #04946d; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #036248; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #fffcedad; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #fdf0d0; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --contrast-color: #fff5dc; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -446,13 +446,13 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: var(--contrast-color);
   font-size: 14px;
   position: relative;
 }
 
 .footer .footer-top {
-  background-color: color-mix(in srgb, var(--background-color), white 5%);
+  background-color: color-mix(in srgb, var(--contrast-color), white 5%);
   padding-top: 50px;
 }
 
